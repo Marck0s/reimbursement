@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="rejected_reson" label="Rejected Reson" language="en" table="x_873666_reimbur_0_reimbursement">
+    <sys_documentation element="rejected_reson" label="Rejected Reason" language="en" table="x_873666_reimbur_0_reimbursement">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>rejected_reson</element>
             <help/>
             <hint/>
-            <label>Rejected Reson</label>
+            <label>Rejected Reason</label>
             <language>en</language>
             <name>x_873666_reimbur_0_reimbursement</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-20 17:15:48</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Rejected Reson</sys_name>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_name>Rejected Reason</sys_name>
             <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
             <sys_policy/>
             <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
             <sys_update_name>sys_documentation_x_873666_reimbur_0_reimbursement_rejected_reson_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-20 17:28:57</sys_updated_on>
+            <sys_updated_on>2025-01-21 15:07:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

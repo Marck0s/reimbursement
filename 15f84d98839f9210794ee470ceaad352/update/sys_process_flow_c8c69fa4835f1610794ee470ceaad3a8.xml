@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_873666_reimbur_0_reimbursement">state=2^EQ<item display_value="Pending Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Pending Approval</label>
+        <name>Pending Approval</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 18:58:07</sys_created_on>
+        <sys_id>c8c69fa4835f1610794ee470ceaad3a8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Pending Approval</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>sys_process_flow_c8c69fa4835f1610794ee470ceaad3a8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:01:38</sys_updated_on>
+        <table>x_873666_reimbur_0_reimbursement</table>
+    </sys_process_flow>
+</record_update>

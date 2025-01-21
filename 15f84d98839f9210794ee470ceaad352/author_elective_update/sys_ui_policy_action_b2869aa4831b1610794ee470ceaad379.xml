@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>rejected_reson</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:18:14</sys_created_on>
+        <sys_id>b2869aa4831b1610794ee470ceaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rejected_reson</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b2869aa4831b1610794ee470ceaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 14:18:14</sys_updated_on>
+        <table>x_873666_reimbur_0_reimbursement</table>
+        <ui_policy display_value="Set Reproval Reson Description to Mandadory ">a92692a4831b1610794ee470ceaad3af</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=b2869aa4831b1610794ee470ceaad379"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_ui_policy_action_b2869aa4831b1610794ee470ceaad379</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>rejected_reson</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 14:18:14</sys_created_on><sys_id>b2869aa4831b1610794ee470ceaad379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rejected_reson</sys_name><sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package><sys_policy/><sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope><sys_update_name>sys_ui_policy_action_b2869aa4831b1610794ee470ceaad379</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 14:18:14</sys_updated_on><table>x_873666_reimbur_0_reimbursement</table><ui_policy display_value="Set Reproval Reson Description to Mandadory ">a92692a4831b1610794ee470ceaad3af</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=b2869aa4831b1610794ee470ceaad379"/></record_update>]]></payload>
+        <payload_hash>1283271992</payload_hash>
+        <record_name>rejected_reson</record_name>
+        <reverted_from/>
+        <source>4f38115883df9210794ee470ceaad3d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:18:14</sys_created_on>
+        <sys_id>94b65ea4831b1610794ee470ceaad31d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194893a68ed0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 14:18:14</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>98b65ea49a1b1610e0e07fc2810caf1c</update_guid>
+        <update_guid_history>98b65ea49a1b1610e0e07fc2810caf1c:1283271992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 14:35:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>1b1f97d5d1964cdcaee93e5d046d1710</sys_id>
+        <sys_metadata>b2869aa4831b1610794ee470ceaad379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rejected_reson</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_scope_delete display_value="">91a7df0ff69344988df9e430f6c59610</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_b2869aa4831b1610794ee470ceaad379</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_b2869aa4831b1610794ee470ceaad379">94b65ea4831b1610794ee470ceaad31d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 14:35:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
