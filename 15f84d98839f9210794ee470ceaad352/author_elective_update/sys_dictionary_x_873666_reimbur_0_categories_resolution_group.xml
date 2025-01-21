@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="resolution_group" table="x_873666_reimbur_0_categories">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Resolution Group</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>resolution_group</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>x_873666_reimbur_0_categories</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_873666_reimbur_0_groups">x_873666_reimbur_0_groups</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 20:34:34</sys_created_on>
+        <sys_id>1f33a61c8357d210794ee470ceaad33a</sys_id>
+        <sys_name>Resolution Group</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>sys_dictionary_x_873666_reimbur_0_categories_resolution_group</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 21:07:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_dictionary_x_873666_reimbur_0_categories_resolution_group</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="resolution_group" table="x_873666_reimbur_0_categories"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Resolution Group</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>resolution_group</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>x_873666_reimbur_0_categories</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="x_873666_reimbur_0_groups">x_873666_reimbur_0_groups</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-20 20:34:34</sys_created_on><sys_id>1f33a61c8357d210794ee470ceaad33a</sys_id><sys_name>Resolution Group</sys_name><sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package><sys_policy/><sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope><sys_update_name>sys_dictionary_x_873666_reimbur_0_categories_resolution_group</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-20 21:07:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>890890058</payload_hash>
+        <record_name>Categories.Resolution Group</record_name>
+        <reverted_from/>
+        <source>4f38115883df9210794ee470ceaad3d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 21:07:43</sys_created_on>
+        <sys_id>3cdaead48397d210794ee470ceaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194858af2750000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 21:07:43</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>70daead40697d210dbd555c9fb5a13f1</update_guid>
+        <update_guid_history>70daead40697d210dbd555c9fb5a13f1:890890058,67d46edc8257d21018656c432b9c766a:1499409610,df33a61cd657d2107fdd524a9114b155:890890058,5733a61c8857d2103660daae4092f54d:-518021029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 00:47:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>469aee60e9c24b8f82b3ffdc81f6cc51</sys_id>
+        <sys_metadata>1f33a61c8357d210794ee470ceaad33a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Resolution Group</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_parent display_value="Categories">42a1b1d88353d210794ee470ceaad3ba</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_scope_delete display_value="">91a7df0ff69344988df9e430f6c59610</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_873666_reimbur_0_categories_resolution_group</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_873666_reimbur_0_categories_resolution_group">3cdaead48397d210794ee470ceaad3f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 00:47:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5533000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Integration Reimbursement Request</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>reimbursement_integration</internal_name>
+        <label_cache>[{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Reimbursement Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"manager","usedInstances":{"050a48e7-b60a-40fb-bef0-f77e714c9e22":["approval_conditions"]}},{"name":"Created_1.current.requester.manager","label":"Trigger - Record Created➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"04ec3750-0411-4d04-8081-6c950c1ebcb3":["conditions"],"0da80981-9ac4-435c-b748-d32854b8eb98":["manager"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_873666_reimbur_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"0da80981-9ac4-435c-b748-d32854b8eb98":["record"],"050a48e7-b60a-40fb-bef0-f77e714c9e22":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Reimbursement Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"opened_by","usedInstances":{"0da80981-9ac4-435c-b748-d32854b8eb98":["requester"]}},{"name":"0da80981-9ac4-435c-b748-d32854b8eb98.record","label":"1 - Update Record➛Reimbursement Record","reference":"x_873666_reimbur_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"050a48e7-b60a-40fb-bef0-f77e714c9e22":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0da80981-9ac4-435c-b748-d32854b8eb98.record.manager","label":"1 - Update Record➛Reimbursement Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"manager","usedInstances":{}}]</label_cache>
+        <master_snapshot>981ab358831fd210794ee470ceaad3e6</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Reimbursement Integration</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>901af358831fd210794ee470ceaad305</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:51:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27697b94831fd210794ee470ceaad379</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Reimbursement Integration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>sys_hub_flow_27697b94831fd210794ee470ceaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:24</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=27697b94831fd210794ee470ceaad379"/>
+    <sys_variable_value action="delete_multiple" query="document_key=27697b94831fd210794ee470ceaad379"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_873666_reimbur_0_reimbursement">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>901af358831fd210794ee470ceaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:56</sys_updated_on>
+        <table>x_873666_reimbur_0_reimbursement</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>27697b94831fd210794ee470ceaad379</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 04:23:23</sys_created_on>
+        <sys_id>f28e80e0839fd210794ee470ceaad35c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <trigger display_value="">901af358831fd210794ee470ceaad305</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=27697b94831fd210794ee470ceaad379^sys_idNOT INf28e80e0839fd210794ee470ceaad35c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=27697b94831fd210794ee470ceaad379"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=27697b94831fd210794ee470ceaad379^sys_idNOT IN2b697b94831fd210794ee470ceaad37b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>27697b94831fd210794ee470ceaad379</id>
+        <name>Reimbursement Integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:51:09</sys_created_on>
+        <sys_id>2b697b94831fd210794ee470ceaad37b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:51:09</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=2b697b94831fd210794ee470ceaad37b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=27697b94831fd210794ee470ceaad379^sys_idNOT IN8c1abb18831fd210794ee470ceaad3e6,c41abb18831fd210794ee470ceaad3e2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</model>
+        <model_id>27697b94831fd210794ee470ceaad379</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>8c1abb18831fd210794ee470ceaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:55</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8c1abb18831fd210794ee470ceaad3e6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</model>
+        <model_id>27697b94831fd210794ee470ceaad379</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:54</sys_created_on>
+        <sys_id>c41abb18831fd210794ee470ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:54</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c41abb18831fd210794ee470ceaad3e2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=27697b94831fd210794ee470ceaad379^sys_idNOT IN8c1ab358831fd210794ee470ceaad3cf"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>8c1ab358831fd210794ee470ceaad3cf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 03:48:10</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuviat22cRQNsN6idbR+CVKCkoU2UplyJUuIu8u8d6mLLuvieTfKyWJMU58zhmTNkHr7rnLjA9Sv9nrgc9I7OhIRQEH6/WgIOSzXsCLJQcwsifCKDcKVfyTCGjh6EPoT6ldnRE8JjmK6iWx8/wqXpF/nnej6Nv5+d4cDu9/tOCGzhxqFjFP+LYAFC4lKfRUtOVn/mX0wq096ccT8EoV89PHb0JQkxkFQgvlemmELiUY+MLDA827QtyzCsYdd0+7ZrWr5NwDBwwyoBFeSygYdN2vAsQfiAoSjhETRQFALx7wRfrVfMkeGMowV5jth/uPvQUOsoIHYPsrn1TyfnIxv25gHz4G4pWSCykQxnNhnweCG+ZvgVk0BJzGXBJI7EEe4HSwVZgcgR0ek8eJoUAT8zkWaXT/LAI3z9i0gZMjeWECnCKeNIvZNxEwVxmKKf3FzfTcbOX5/ur3+7mTiTm+n95Pb6/masv6R5Of/GascMYY7FydJ5WR//ZwZcHaCIFy6i6eiRF7Kl/ORJlkAO56Wzke91IHyWslKTsFdMRdsSzlMqDtMwWlXslTYvlPz3zR91sWaDx0m03yfEB9IiUZeWJFpOsgGabMi3nN0useYjh6i1axhvpNesok6W6yLwgY832+k4OZuhgJlYxlKx9USEjBwZOMT3nRKPaili2qffLLeXvWINY4EfOOvzqEs2pW3N3xcWIdwHLLiCm3RLnKdf8i0nsdACPDj8R/PiEKmRWmFh9HZBZjmjdAocPFkSAf0WlX/9zqKIiVkJ9TpoykEt5jocikkrUspiR2cGfzyxXuv8JhXeKnV7dNGaJqUuUMsYqJI1DdulpjEweoT6tmF4Vqlo62BaUcrK6b9K8R5XulGqO36AyqoU5+CNsvAPUkyyLbeCBKWG3CGuLwPNvBA0S0GrOJ19lNWtZZkNjytXoB2pXbijEz8h+IV/qOMdaHaUB0/osicYnUu8f2ZhEAu/6jxqT40JbbNC+ynn7+cLmh4NQtgNYHvFG9ndhuFCo0SsLmB0NjXdEXTBQH+z0drc3mjkesSidNAfgGVWjG4DoxHbhzC4PcJKmpTZZnaNGkmapHWEzZ0BsGZ5RwM83+xyYTZaXTb3MUztaQ7CQaihw5Vt1bxtxpkPxdzJhV2LkmxK+dzipsOR1zMHA2+Azw4sbtoFl5hdq0dGg7497FWKuwZlF0zZQMIPeYxEqygF0lL437Kp9/WQfk2FRiClajLH916Bt9P0G5IFKfU/dSxa6h9BqH0NxC+3m3XaFLCtpS/SSzXhQ1Cog9VeF4YbyHntFoChf8XxrdDq9tjCylu+iSp6SLbTOvtNBN1hb0TtZjehoyY32YBph/nuLw0HFkPSWlZNt4dDtZ00lkhruz9BrRWZlO8BOy4qlyLFvDgp1uuRYp99OSpqsfUheArYD9St0ivEOS1LxQQnoGWfHgcaTmgYRGNUy//qh+96d6XJOSClHG/BGFBT0c816HLDqENZK/jHAsnu1bXGhcNafld6055UOfXLPmHBH5Bez2655Y6qT9gmQHvwvvsOdXQBJE31tLNNHbdvdc/GRlVS57YiDmxBF826uQ+dl3VjJ9qX9fk9ZtcDvAHFO+0ej/8DsI3yU70eAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=27697b94831fd210794ee470ceaad379^sys_idNOT IN2f0880e8835fd210794ee470ceaad37e,881ab358831fd210794ee470ceaad3d1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 03:55:02</sys_created_on>
+        <sys_id>2f0880e8835fd210794ee470ceaad37e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:14</sys_updated_on>
+        <ui_id>050a48e7-b60a-40fb-bef0-f77e714c9e22</ui_id>
+        <values>H4sIAAAAAAAA/+1X32/aMBD+V5CfEQukBcpbNYS0SVsl2vWloMg4F3DlOJnjtGUo//vOiRNSaFOEkLpVfcP387u77xxztyHcJyMyGAY9uLjoOYuu47iOMzxnztCFhTvoD1zKHNImkoaAlgpYpHw8P1CRGsFm81UB1eB73Q5LlQKpswz1Pk9iQde31gwlbMWFj3oyupu3SUwVRtSgyGizo9LrGDxBFyDQcRyxNMSgrW9jjHEo2tJ7WsLdhW9y4Nm30T1uhKgyeJw2gScN0gfMFlCRQJuEVPpUR2pNRlqlKMCi/Ssp1pXFiktdFBrSp4T/wfBuz9gFgJUx24Tq6NkGlb2JOIOrWPNIFhJNF6JsXCTSUP4sKjCthYCmQtdamyYYD2ID2YAoEAbXq+hxWuabcJkXZ9GKiFFRnajWii9SDYmZBgjIexLSOOZy6cUqeuC5M0IJO0uBh04gokfMmfCl7FBmcHewQbQzQfk4F99SxU0RPzAMOmd58d7v1OQtyrCAvbzmomC0Spjisb7EmA9gEWZtS9QFaxw92066CLfl6ZM3HLj9ft9TwMNFqjyn/JXk1e5TdrqjPo6/NwZHKx9e++Aanjnv12TJmx89WYS23O02c9dKDiHv0Hkf8lpE/xl73yKu020auj/cDhnzIWIqvICDqN+0pWKfqTXNcSSdmFTPSHoA3tL50mZvTSzg1wqxtM2PO7TtnZC2zjsR9+PeuqyRDOBuZ34fpUo2cNdb8SQf6ascrlmcissHwC+dvxf4d6m8W1YDk91PJv/DTD47b6QCvHB7sUj63OBLanwu7jxIpnAPTCeXcv3r7oWXcAcnT5egsmy+z/ijYhy3E9UVPU0FJOVeHNCM6h1t/RqbY7eiUirrZDfj7FTP6vdbjI/5NmGNPAgutnP3U2wH0rP+/29GCpAzMpoRGUmYkfaMGCvPECIXowWCqxS5bLPJskKSKmoDdGvHrbdP10lumbAV+EiqXPpMUjDdyk/59/PaJmiNEfeXG177qrzdteo/bFr4v9hIuzVVJUXneP2bcn6yb8rZ5+LUFgdhcq96POMnBK+go7dp/heXaq9TTREAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>881ab358831fd210794ee470ceaad3d1</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:14</sys_updated_on>
+        <ui_id>0da80981-9ac4-435c-b748-d32854b8eb98</ui_id>
+        <values>H4sIAAAAAAAA/+1UXWvbMBT9K0HPxthx6qV5KwuBPayFbPSlK0K2rhOBbLmylCYL+e+7suU0zbIuK4ExmJ98v8+5OtyHLRGcTMgIeBRfx2mexEkyjKLheBRnaZLFQ54wgJgEpGIlYKaGXGmO9opJ6xzb7UcNzACncZhbraEyux3GuWhqyTb3Pg09+VJIjnEyeXgMSM00djSgyWR7FDKbGqhkGUgsnKrclth08GmKPc5F21fPe7jH8N0MtLnvToVzYsjhiaOAwNpAxQHHFUw2EJCSVZwZpTdkYrRFB7Lmd5Xc7DOWojId05KtG/Ed+48il1cAUsv9FvYm9Rvql6NEDne1EarqPIZlst+ckrasbjsKbrdQMCvNwW5tg/2gdpAdiA5h8WWpnuf9vJmoWnYerVQ5k3uLGaNFZg007jlAQruUktW1qBa01mol2mKEUoYLiUZYSPWMMxuxqEKWO9whLoiFM/RPW/c908KR+IxtsHjXkqdP1s3taHjAtOXcEqbtQ2Fqk2tRmxtsvAIPcxd4uWZXbwkgv35574OeL5Jd0/GHJE1TqkGUmdU06v+alvfP6p0fhd8n5a8OzOC2A3MukVfFvyDmxfzK57V8dTEtj/+Slj2if0zMv5NwNHzzhh28dKva5kC+Gp7QgXL7ZqMo4ScOcKgQCzqyzalT/Mf171Q7lDjVwKCbG5zNu28wEyB5c2IRvdz9ALryA/bn+2Kaj9Oo/f5f8Qte8ccf0xRzonYIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=27697b94831fd210794ee470ceaad379"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379^sys_idNOT IN401abb18831fd210794ee470ceaad3e6,cc1abb18831fd210794ee470ceaad3e8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>401abb18831fd210794ee470ceaad3e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>cc1abb18831fd210794ee470ceaad3e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_27697b94831fd210794ee470ceaad379"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_27697b94831fd210794ee470ceaad379"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_27697b94831fd210794ee470ceaad379"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Integration Reimbursement Request</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>reimbursement_integration</internal_name>
+        <label_cache>[{"name":"Created_1.current.manager","label":"Trigger - Record Created➛Reimbursement Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"manager","usedInstances":{"050a48e7-b60a-40fb-bef0-f77e714c9e22":["approval_conditions"]}},{"name":"Created_1.current.requester.manager","label":"Trigger - Record Created➛Reimbursement Record➛Requester➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager","usedInstances":{"04ec3750-0411-4d04-8081-6c950c1ebcb3":["conditions"],"0da80981-9ac4-435c-b748-d32854b8eb98":["manager"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Reimbursement Record","reference":"x_873666_reimbur_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"0da80981-9ac4-435c-b748-d32854b8eb98":["record"],"050a48e7-b60a-40fb-bef0-f77e714c9e22":["record"]},"attributes":{}},{"name":"Created_1.current.opened_by","label":"Trigger - Record Created➛Reimbursement Record➛Opened by","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"opened_by","usedInstances":{"0da80981-9ac4-435c-b748-d32854b8eb98":["requester"]}},{"name":"0da80981-9ac4-435c-b748-d32854b8eb98.record","label":"1 - Update Record➛Reimbursement Record","reference":"x_873666_reimbur_0_reimbursement","reference_display":"Reimbursement","type":"reference","base_type":"reference","usedInstances":{"050a48e7-b60a-40fb-bef0-f77e714c9e22":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0da80981-9ac4-435c-b748-d32854b8eb98.record.manager","label":"1 - Update Record➛Reimbursement Record➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_873666_reimbur_0_reimbursement","column_name":"manager","usedInstances":{}}]</label_cache>
+        <master>true</master>
+        <name>Reimbursement Integration</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Reimbursement Integration">27697b94831fd210794ee470ceaad379</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>981ab358831fd210794ee470ceaad3e6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=981ab358831fd210794ee470ceaad3e6^sys_idNOT INd81ab358831fd210794ee470ceaad3e7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>981ab358831fd210794ee470ceaad3e6</id>
+        <name>Reimbursement Integration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>d81ab358831fd210794ee470ceaad3e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d81ab358831fd210794ee470ceaad3e7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=981ab358831fd210794ee470ceaad3e6^sys_idNOT IN981ab358831fd210794ee470ceaad3e8,9c1ab358831fd210794ee470ceaad3f2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reimbursement Integration">981ab358831fd210794ee470ceaad3e6</model>
+        <model_id>981ab358831fd210794ee470ceaad3e6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>981ab358831fd210794ee470ceaad3e8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=981ab358831fd210794ee470ceaad3e8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Reimbursement Integration">981ab358831fd210794ee470ceaad3e6</model>
+        <model_id>981ab358831fd210794ee470ceaad3e6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>9c1ab358831fd210794ee470ceaad3f2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9c1ab358831fd210794ee470ceaad3f2"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=981ab358831fd210794ee470ceaad3e6^sys_idNOT IN181ab358831fd210794ee470ceaad3fe"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">981ab358831fd210794ee470ceaad3e6</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:56</sys_created_on>
+        <sys_id>181ab358831fd210794ee470ceaad3fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 03:48:10</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuviat22cRQNsN6idbR+CVKCkoU2UplyJUuIu8u8d6mLLuvieTfKyWJMU58zhmTNkHr7rnLjA9Sv9nrgc9I7OhIRQEH6/WgIOSzXsCLJQcwsifCKDcKVfyTCGjh6EPoT6ldnRE8JjmK6iWx8/wqXpF/nnej6Nv5+d4cDu9/tOCGzhxqFjFP+LYAFC4lKfRUtOVn/mX0wq096ccT8EoV89PHb0JQkxkFQgvlemmELiUY+MLDA827QtyzCsYdd0+7ZrWr5NwDBwwyoBFeSygYdN2vAsQfiAoSjhETRQFALx7wRfrVfMkeGMowV5jth/uPvQUOsoIHYPsrn1TyfnIxv25gHz4G4pWSCykQxnNhnweCG+ZvgVk0BJzGXBJI7EEe4HSwVZgcgR0ek8eJoUAT8zkWaXT/LAI3z9i0gZMjeWECnCKeNIvZNxEwVxmKKf3FzfTcbOX5/ur3+7mTiTm+n95Pb6/masv6R5Of/GascMYY7FydJ5WR//ZwZcHaCIFy6i6eiRF7Kl/ORJlkAO56Wzke91IHyWslKTsFdMRdsSzlMqDtMwWlXslTYvlPz3zR91sWaDx0m03yfEB9IiUZeWJFpOsgGabMi3nN0useYjh6i1axhvpNesok6W6yLwgY832+k4OZuhgJlYxlKx9USEjBwZOMT3nRKPaili2qffLLeXvWINY4EfOOvzqEs2pW3N3xcWIdwHLLiCm3RLnKdf8i0nsdACPDj8R/PiEKmRWmFh9HZBZjmjdAocPFkSAf0WlX/9zqKIiVkJ9TpoykEt5jocikkrUspiR2cGfzyxXuv8JhXeKnV7dNGaJqUuUMsYqJI1DdulpjEweoT6tmF4Vqlo62BaUcrK6b9K8R5XulGqO36AyqoU5+CNsvAPUkyyLbeCBKWG3CGuLwPNvBA0S0GrOJ19lNWtZZkNjytXoB2pXbijEz8h+IV/qOMdaHaUB0/osicYnUu8f2ZhEAu/6jxqT40JbbNC+ynn7+cLmh4NQtgNYHvFG9ndhuFCo0SsLmB0NjXdEXTBQH+z0drc3mjkesSidNAfgGVWjG4DoxHbhzC4PcJKmpTZZnaNGkmapHWEzZ0BsGZ5RwM83+xyYTZaXTb3MUztaQ7CQaihw5Vt1bxtxpkPxdzJhV2LkmxK+dzipsOR1zMHA2+Azw4sbtoFl5hdq0dGg7497FWKuwZlF0zZQMIPeYxEqygF0lL437Kp9/WQfk2FRiClajLH916Bt9P0G5IFKfU/dSxa6h9BqH0NxC+3m3XaFLCtpS/SSzXhQ1Cog9VeF4YbyHntFoChf8XxrdDq9tjCylu+iSp6SLbTOvtNBN1hb0TtZjehoyY32YBph/nuLw0HFkPSWlZNt4dDtZ00lkhruz9BrRWZlO8BOy4qlyLFvDgp1uuRYp99OSpqsfUheArYD9St0ivEOS1LxQQnoGWfHgcaTmgYRGNUy//qh+96d6XJOSClHG/BGFBT0c816HLDqENZK/jHAsnu1bXGhcNafld6055UOfXLPmHBH5Bez2655Y6qT9gmQHvwvvsOdXQBJE31tLNNHbdvdc/GRlVS57YiDmxBF826uQ+dl3VjJ9qX9fk9ZtcDvAHFO+0ej/8DsI3yU70eAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=981ab358831fd210794ee470ceaad3e6^sys_idNOT IN501ab358831fd210794ee470ceaad3fe,7f0880e8835fd210794ee470ceaad3c7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">981ab358831fd210794ee470ceaad3e6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:56</sys_created_on>
+        <sys_id>501ab358831fd210794ee470ceaad3fe</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <ui_id>0da80981-9ac4-435c-b748-d32854b8eb98</ui_id>
+        <values>H4sIAAAAAAAA/+VVXW/aMBT9K8jPKEoIzShvEwhpUtdKdOKlqyLHvgFLzkdth5Ih/vtuEidEFHUg9QWNJ3y/fM7hHvyyJ4KTKRkDd717L2C+5/sj1x1Nxl4U+JE34j4F8MiQpDQBrFTAMsXxvKWyqAL7/UwBNcBDz2GFUpCawwHzXOhc0nJlyzDCNkJyzJPpy+uQ5FThRAOKTPcnqUshSRqBxNJli+kUoynz6swzViSIKxRt8MF2zm1m8GOOGWyq4HjukMDOQMoBgcRUahiShKacmkyVZGpUgQEkzZ9SWXYVG5GahmhCd1r8wZvHblUXAzJjVoTuGFqBmnA8p4Y+42RmCtXplQkGutGEQ0wLaWb9WFPwlBuRpU2LoZFsuzNZJOljowjpBvR+j0IjCMgrnhXyhlb8vMnely3IhUhrSSxFmTEquxM1RomoMBWcPQEJtcYJzXORrsNcZVtRNyOUxFlLPDixzN7xTi3WqUNZhdtBVamzwPi8Dq+oEhWJnzgGmw9Doks9k1TrIxXUMHwrKiQNMUshrFWoJQjrTaiamRK5+Y5XbcECPwzt0kd3n20Yuz8uVG/mcfF34eSbHwRBqEAkUaFCt/2mayU+emB5kr7OEBfAbQ3xq16D8/CtJz7EHvq9g8cmYR1x92WOmNySIyyNm7fEv4zgjj79q+1tUr37umcCBW8YwKX9Xbiuz888Bk6GWDAQleeehav7r/PMBcxazywESK7PUG0NAwkCNxA21E9MY5ODlU12T8mXOccL3PpzQ/75b16U17+EcZ1TSAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Reimbursement Integration">981ab358831fd210794ee470ceaad3e6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 03:55:03</sys_created_on>
+        <sys_id>7f0880e8835fd210794ee470ceaad3c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <ui_id>050a48e7-b60a-40fb-bef0-f77e714c9e22</ui_id>
+        <values>H4sIAAAAAAAA/+1XXW/aMBT9K5WfEQukBcpbVVRp09ZKtNtLqSLjOODKcTLbactQ/vtubOej0FLoeGHtG75fPvdyjh3fLhEL0RD1B1GXnp52vWnH83zPG5wQb+DTqd/v9X1MPNRCAscUIiUliQxh/YB5VhiWy3NJsaZh0GmTTEoqdJ6DP2Qq5Xjxy4WBhcwZD8GPhrd3LZRiCRU1lWi4XHFtC4njKeUQOi4xrWLUi7RYhwnJYsAVsNL43WWOnOfo6wg8kFTA8VqIPmkqQgo4IswVbaEYixDrRC7QUMsMDNBzeCX4ooqYM6FtnzF+UuwPbOx3i7iIQmPEzaBaBm4+1hyNsMbXUJnoTFbjShihyo4kpBHOuD5v2mzAVapZImyKxlNeZic8i8WlHQiqCjT+jkwBCJoWfRbIbVvR9Tx5HJcgL5gwE3Et8oRgXq2w1pJNM13AWSLKqRlxjNOUiVmQyuSBmWSAErdnHBbtiCePsKdiM9HGpMDdhqni9gXYR8b8C0tWNPEDykBy3kJqoc45VqpuBWYY/M4KJLYx10JgpmBHUOQRyVJ9Brs8UIc5bzm6T8lGbpGaSrZczfanYND3e71eICmLp5kMvPKXMv2vE3+84t5NBVsgLVVw46CuIHcaMMvA+J5LwKQdXVqHU0BnswKcpZaA5c4LChh4B6QA19bBS+At9nudTZwKBzWHAAH0gHkQMcqbh37pWKd7w7Mb07dAVTL9zO1xdOFgvQbXcd8sX+K+yV/hfndH7r9+/A8875Do/5EuALKRbNSvOXWfZFJsUEAwZ8ow41UlNCJ2U8QWIEtFfLMoVwWxCv49evA/9fD/6+H4ZCPVGp8VFatJIkJWIFYNVdiTmaoxvadEqzOx+Hn7wgOhDQTCMyrz/G5dN++qsZuytmi3eltknKq32ne6qpzSJTW1VV1aZUWnr+N9vTYOTF4f5WuLbORadFpzK8xgQEDy5uN6gizsCRpOkEgEnaDWBBVRQUEuY4YIAFc5jG25zHNrySR2BTqNZZ0d4oUykYrMaQjcNNZnlsCIwdn38bbfYial/kYZPRrZoayPyemuwmnnwtbutWsXYCp9uWHN++1kb/fb8af8/lV+AJMF1RMCLi84/faoybu/oUn9ufASAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=981ab358831fd210794ee470ceaad3e6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6^sys_idNOT IN101ab358831fd210794ee470ceaad3f7,d41ab358831fd210794ee470ceaad3f0"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:56</sys_created_on>
+        <sys_id>101ab358831fd210794ee470ceaad3f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:55</sys_created_on>
+        <sys_id>d41ab358831fd210794ee470ceaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 02:53:55</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_981ab358831fd210794ee470ceaad3e6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_981ab358831fd210794ee470ceaad3e6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_981ab358831fd210794ee470ceaad3e6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>27697b94831fd210794ee470ceaad379</sys_id>
+        <latest_snapshot>981ab358831fd210794ee470ceaad3e6</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch4-11-22-2024_12-02-2024_1408.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=27697b94831fd210794ee470ceaad379^sys_idNOT IN901af358831fd210794ee470ceaad307"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"901af358831fd210794ee470ceaad307","name":"plan","plan_signature":null}}</plan>
+        <plan_id>27697b94831fd210794ee470ceaad379</plan_id>
+        <snapshot>981ab358831fd210794ee470ceaad3e6</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 02:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>901af358831fd210794ee470ceaad307</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 04:23:23</sys_updated_on>
+        <trigger display_value="">901af358831fd210794ee470ceaad305</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=27697b94831fd210794ee470ceaad379"/>
+</record_update>

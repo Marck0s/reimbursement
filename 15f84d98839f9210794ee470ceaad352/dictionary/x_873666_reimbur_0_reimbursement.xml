@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd7e61d48353d210794ee470ceaad304" extends="task" label="Reimbursement" max_length="40" name="x_873666_reimbur_0_reimbursement" type="collection">
+        <element label="ExpenseDate" max_length="40" name="expensedate" type="glide_date"/>
+        <element label="Manager" max_length="32" name="manager" reference="sys_user" reference_qual="sys_id=&lt;FIELD&gt;:requested_for.manager&#13;&#10;" reference_qual_condition="sys_id=&lt;FIELD&gt;:requested_for.manager" type="reference"/>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element label="Category" max_length="32" name="category_id" reference="x_873666_reimbur_0_categories" type="reference"/>
+        <element label="Rejected Reson" max_length="5000" name="rejected_reson" type="string"/>
+        <element label="ValueBRL" max_length="40" name="valuebrl" type="currency"/>
+        <element label="ValueUSD" max_length="40" name="valueusd" type="currency"/>
+        <element label="Resolver Group" max_length="32" name="resolver_group" reference="sys_user_group" type="reference"/>
+    </element>
+</database>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="42a1b1d88353d210794ee470ceaad3ba" label="Categories" max_length="40" name="x_873666_reimbur_0_categories" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Name" max_length="250" name="name" type="string"/>
+        <element label="Resolver Group" max_length="32" name="resolver_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="resolver_group"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
