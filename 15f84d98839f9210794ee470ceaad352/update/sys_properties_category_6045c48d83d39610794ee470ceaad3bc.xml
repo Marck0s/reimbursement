@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>Reimbursement</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 17:00:01</sys_created_on>
+        <sys_id>6045c48d83d39610794ee470ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reimbursement</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>sys_properties_category_6045c48d83d39610794ee470ceaad3bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 17:00:01</sys_updated_on>
+        <title/>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=6045c48d83d39610794ee470ceaad3bc"/>
+</record_update>

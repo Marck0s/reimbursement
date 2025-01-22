@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 19:50:14</sys_created_on>
+        <sys_id>592c244183d79610794ee470ceaad34d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_873666_reimbur_0_reimbursement.x_873666_reimbur_0.reimbursement_requester</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_security_acl display_value="x_873666_reimbur_0_reimbursement">327ea1d48353d210794ee470ceaad3c7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_592c244183d79610794ee470ceaad34d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 19:50:14</sys_updated_on>
+        <sys_user_role display_value="x_873666_reimbur_0.reimbursement_requester" name="x_873666_reimbur_0.reimbursement_requester">a5f84d98839f9210794ee470ceaad376</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

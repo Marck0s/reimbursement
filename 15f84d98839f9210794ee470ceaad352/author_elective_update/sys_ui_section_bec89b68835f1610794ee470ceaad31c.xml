@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="bec89b68835f1610794ee470ceaad31c" sys_domain="global" table="x_873666_reimbur_0_reimbursement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 19:07:03</sys_created_on>
+            <sys_id>47c89b68835f1610794ee470ceaad367</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">7fa65f64835f1610794ee470ceaad386</sys_ui_formatter>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_873666_reimbur_0_reimbursement" sys_domain="global" view="Default view">bec89b68835f1610794ee470ceaad31c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 19:07:03</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_873666_reimbur_0_reimbursement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 19:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bec89b68835f1610794ee470ceaad31c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_873666_reimbur_0_reimbursement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+            <sys_update_name>sys_ui_section_bec89b68835f1610794ee470ceaad31c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 19:07:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</application>
+        <file_path/>
+        <instance_id>c97a658edb127d102f082a59139619db</instance_id>
+        <instance_name>dev205327</instance_name>
+        <name>sys_ui_section_bec89b68835f1610794ee470ceaad31c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="bec89b68835f1610794ee470ceaad31c" sys_domain="global" table="x_873666_reimbur_0_reimbursement" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 19:07:03</sys_created_on><sys_id>47c89b68835f1610794ee470ceaad367</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">7fa65f64835f1610794ee470ceaad386</sys_ui_formatter><sys_ui_section caption="New section 1" display_value="New section 1" name="x_873666_reimbur_0_reimbursement" sys_domain="global" view="Default view">bec89b68835f1610794ee470ceaad31c</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 19:07:03</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_873666_reimbur_0_reimbursement</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 19:07:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bec89b68835f1610794ee470ceaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_873666_reimbur_0_reimbursement</sys_name><sys_overrides/><sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package><sys_policy/><sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope><sys_update_name>sys_ui_section_bec89b68835f1610794ee470ceaad31c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 19:07:02</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1743923406</payload_hash>
+        <record_name>Reimbursement</record_name>
+        <reverted_from/>
+        <source>4f38115883df9210794ee470ceaad3d0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 19:07:03</sys_created_on>
+        <sys_id>4bc89b68835f1610794ee470ceaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948a42d4a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 19:07:03</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>cfc89b688a5f161005d481719fd56f68</update_guid>
+        <update_guid_history>cfc89b688a5f161005d481719fd56f68:-1743923406</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-22 21:07:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>5ae90bae9c46462896cd9260f165bc11</sys_id>
+        <sys_metadata>bec89b68835f1610794ee470ceaad31c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_parent display_value="Reimbursement">dd7e61d48353d210794ee470ceaad304</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_scope_delete display_value="">91a7df0ff69344988df9e430f6c59610</sys_scope_delete>
+        <sys_update_name>sys_ui_section_bec89b68835f1610794ee470ceaad31c</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_bec89b68835f1610794ee470ceaad31c">4bc89b68835f1610794ee470ceaad369</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-22 21:07:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
