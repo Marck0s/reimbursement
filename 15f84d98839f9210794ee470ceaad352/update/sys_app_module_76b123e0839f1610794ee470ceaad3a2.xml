@@ -15,19 +15,19 @@
         <mobile_title>Awaiting Approval</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_873666_reimbur_0_reimbursement</name>
-        <order>200</order>
-        <override_menu_roles>false</override_menu_roles>
+        <order>100</order>
+        <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles>x_873666_reimbur_0.hr_manager,x_873666_reimbur_0.hr_resolver</roles>
+        <roles>x_873666_reimbur_0.requester_manager</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-01-21 19:47:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>76b123e0839f1610794ee470ceaad3a2</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Awaiting Manager's Approval</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
         <sys_update_name>sys_app_module_76b123e0839f1610794ee470ceaad3a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-21 19:52:22</sys_updated_on>
+        <sys_updated_on>2025-01-23 17:40:09</sys_updated_on>
         <timeline_page/>
         <title>Awaiting Manager's Approval</title>
         <uncancelable>false</uncancelable>

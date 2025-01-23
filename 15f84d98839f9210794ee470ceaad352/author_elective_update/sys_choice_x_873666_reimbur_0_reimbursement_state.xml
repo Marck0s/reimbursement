@@ -20,25 +20,6 @@
             <element>state</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pending Approval</label>
-            <language>en</language>
-            <name>x_873666_reimbur_0_reimbursement</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-01-21 02:12:10</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 02:21:52</sys_updated_on>
-            <value>2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>state</element>
-            <hint/>
-            <inactive>false</inactive>
             <label>Approved</label>
             <language>en</language>
             <name>x_873666_reimbur_0_reimbursement</name>
@@ -48,9 +29,9 @@
             <sys_created_on>2025-01-21 02:12:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 02:21:52</sys_updated_on>
+            <sys_updated_on>2025-01-23 17:39:50</sys_updated_on>
             <value>3</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,9 +48,9 @@
             <sys_created_on>2025-01-21 02:12:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 02:21:52</sys_updated_on>
+            <sys_updated_on>2025-01-23 17:39:52</sys_updated_on>
             <value>4</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,10 +67,29 @@
             <sys_created_on>2025-01-21 02:12:40</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 02:21:52</sys_updated_on>
+            <sys_updated_on>2025-01-23 17:39:53</sys_updated_on>
             <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pending Approval</label>
+            <language>en</language>
+            <name>x_873666_reimbur_0_reimbursement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 02:12:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-23 17:39:55</sys_updated_on>
+            <value>2</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -99,15 +99,15 @@
             <label>Closed</label>
             <language>en</language>
             <name>x_873666_reimbur_0_reimbursement</name>
-            <sequence>4</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2025-01-21 02:12:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-01-21 02:21:52</sys_updated_on>
+            <sys_updated_on>2025-01-23 17:39:57</sys_updated_on>
             <value>6</value>
         </sys_choice>
     </sys_choice>

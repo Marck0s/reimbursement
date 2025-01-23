@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">f5340a5583531a10794ee470ceaad317</canvas>
+        <component display_value="Single score">d24d53f60350de7a652caf3188a46ed2</component>
+        <component_props>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"default"},"newReporting":false,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Reimbursement","sourceType":"table","tableOrViewName":"x_873666_reimbur_0_reimbursement","filterQuery":"sys_created_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4Xzg3MzY2Nl9yZWltYnVyXzBfcmVpbWJ1cnNlbWVudDE3Mzc2NjA0NTY2NTk=","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showHeaderSeparator":false,"contextMenuActions":[],"headerTitle":"Reimbursement Requests/Day","headingLevel":2,"showBorder":true,"bareBorder":false,"dataCategory":"group","telemetry":null,"showDataPassthrough":false,"showAdditionalGroupBySelector":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4Xzg3MzY2Nl9yZWltYnVyXzBfcmVpbWJ1cnNlbWVudDE3Mzc2NjA0NTY2NTk=","id":"ZEdGaWJHVjRYemczTXpZMk5sOXlaV2x0WW5WeVh6QmZjbVZwYldKMWNuTmxiV1Z1ZERFM016YzJOakEwTlRZMk5Uaz0xNzM3NjYwNDU4NTQ0","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"6gebf00n","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"filterConfigurations":"@state.parFilters","showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"id":"headerTitle","value":"Reimbursement Requests/Day","noDebounce":true,"propLabel":"Chart title"}</component_props>
+        <h>11</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-23 20:00:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5c487d5583131a10794ee470ceaad30c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
+        <sys_update_name>par_dashboard_widget_5c487d5583131a10794ee470ceaad30c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-23 20:52:57</sys_updated_on>
+        <visualization/>
+        <w>16</w>
+        <widget_props/>
+        <x>32</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
