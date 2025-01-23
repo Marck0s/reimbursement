@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
     <sysevent_email_action action="INSERT_OR_UPDATE">
-        <action_insert>false</action_insert>
-        <action_update>true</action_update>
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
         <active>true</active>
-        <advanced_condition/>
+        <advanced_condition><![CDATA[current.group.name.indexOf("Team") != -1;
+]]></advanced_condition>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_873666_reimbur_0_reimbursement</collection>
-        <condition table="x_873666_reimbur_0_reimbursement">state=6^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
+        <collection>sys_user_grmember</collection>
+        <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -38,55 +37,55 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Dear ${opened_by.first_name},</p>
-<p>I hope this message finds you well.</p>
-<p>We would like to inform you that your reimbursement request (${number}), categorized under "${category_id.name}," has been successfully closed.</p>
-<p>If you have any further questions or require assistance regarding this request, please do not hesitate to contact our team.</p>
-<p>Thank you for your attention.</p>
-<p>Best regards,<br>Reimbursement Team</p>]]></message_html>
+        <message_html><![CDATA[<p>Dear HR Manager,</p>
+<p>We would like to inform you that a new member <strong>has been added</strong> to the "${group.name}".</p>
+<p>${user.name} was added on ${sys_created_on}, and the e-mail is ${user.email}.</p>
+<p>If you require further information, please contact us</p>
+<p>&nbsp;</p>
+<p>Yours sincerely, &nbsp;<br>System team.</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Reimbursement Request Closed</name>
+        <name>New Resolver Member Notification</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>requester</recipient_fields>
-        <recipient_groups/>
+        <recipient_fields/>
+        <recipient_groups name="HR Managers">f4eac61c83d3d210794ee470ceaad33b</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>${number}  -   Reimbursement Request Closed</subject>
+        <subject>New Member Added to the "${group.name}"</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-21 13:54:42</sys_created_on>
+        <sys_created_on>2025-01-23 04:05:46</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>eb4196ac83d71610794ee470ceaad326</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Reimbursement Request Closed</sys_name>
+        <sys_id>feec1a4983df9610794ee470ceaad333</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>New Resolver Member Notification</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement" source="x_873666_reimbur_0">15f84d98839f9210794ee470ceaad352</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement">15f84d98839f9210794ee470ceaad352</sys_scope>
-        <sys_update_name>sysevent_email_action_eb4196ac83d71610794ee470ceaad326</sys_update_name>
+        <sys_update_name>sysevent_email_action_feec1a4983df9610794ee470ceaad333</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 03:25:47</sys_updated_on>
+        <sys_updated_on>2025-01-23 04:53:15</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>eb4196ac83d71610794ee470ceaad326</id>
+        <id>feec1a4983df9610794ee470ceaad333</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-01-23 03:24:18</sys_created_on>
-        <sys_id>f034d28d839f9610794ee470ceaad363</sys_id>
+        <sys_created_on>2025-01-23 04:08:30</sys_created_on>
+        <sys_id>985ed2c983df9610794ee470ceaad3da</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 03:24:18</sys_updated_on>
+        <sys_updated_on>2025-01-23 04:08:30</sys_updated_on>
         <table>sysevent_email_action</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>
